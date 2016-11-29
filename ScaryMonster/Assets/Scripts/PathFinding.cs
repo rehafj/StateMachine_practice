@@ -65,7 +65,7 @@ public class PathFinding : MonoBehaviour {
 			chooseAmongActiveRedd();
 		}
 
-
+	
 		/*Debug.Log("reached red end ? " + reachedEndRed.ToString() + " enemy state is " + enemyState.mystate );
 
 		timeLeft -= Time.deltaTime;
@@ -90,7 +90,7 @@ public class PathFinding : MonoBehaviour {
 	
 	
 	
-	}
+	}//2 unused for future versions 
 	public Transform setTarget(){
 
 		if(enemyState.mystate == EnemyAI.States.chase){
